@@ -72,6 +72,8 @@ if (_TGUserID) {
     //   tipPrefix + cookieName + 'Cookie成功 🎉'
     // );
 
+     $.needUpload = true;
+
     if ($.needUpload) {
       for (const userId of $.TGUserIDs) {
         await updateCookie(cookie, userId);
