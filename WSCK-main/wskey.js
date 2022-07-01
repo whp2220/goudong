@@ -66,15 +66,13 @@ if (_TGUserID) {
       $.needUpload = true;
     }
     $.setData(JSON.stringify(cookiesData, null, 2), 'wskeyList');
-    $.msg(
-       '用户名: ' + decodeName,
-       '',
-       tipPrefix + cookieName + 'Cookie成功 🎉'
-     );
+    //$.msg(
+      // '用户名: ' + decodeName,
+      // '',
+      // tipPrefix + cookieName + 'Cookie成功 🎉'
+    // );
 
-    console.log(`${TGUserID} 。输出\n`);
-
-     $.needUpload = true;
+  $.needUpload = true;
 
     if ($.needUpload) {
       for (const userId of $.TGUserIDs) {
