@@ -1,1 +1,13 @@
+# 节点配置片段包含一些节点配置信息；可通过资源引用的方式使用。
 
+# 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+
+# 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.snippet
+
+ 
+
+socks5=42.157.192.41:10002, username=123456, password=654321, fast-open=false, udp-relay=false, tag=socks5-01
+
+socks5=sg.iplc01.ctcloudvip.com:10001, username=123456, password=654321, fast-open=false, udp-relay=false, tag=socks5-02
+
+socks5=home-all.trli.club:53, fast-open=false, udp-relay=false, tag=冷漠
